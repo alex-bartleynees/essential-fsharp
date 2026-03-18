@@ -1,0 +1,5 @@
+{
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp",
+    "FSharp.inlayHints.parameterNames": false,
+    "editor.inlayHints.enabled": "offUnlessPressed"
+}
