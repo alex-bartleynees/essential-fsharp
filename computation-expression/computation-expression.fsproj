@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>computation_expression</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup><Compile Include="AsyncResultDemo.fs" /><Compile Include="AsyncDemo.fs" /><Compile Include="ResultDemo.fs" /><Compile Include="OptionDemo.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+<PropertyGroup>
+  <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+</PropertyGroup>
+
+<ItemGroup>
+  <Reference Include="netstandard" />
+</ItemGroup>
+
+<ItemGroup>
+  <PackageReference Include="FsToolkit.ErrorHandling" Version="5.2.0" />
+</ItemGroup>
+
+</Project>
